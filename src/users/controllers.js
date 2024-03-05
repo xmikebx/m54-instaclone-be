@@ -96,8 +96,6 @@ const updateUser = async (req, res) => {
   } catch (error) {
     res.send({ message: "its gone pete tong", error: error });
   }
-
-  // console.log(getTitle);
 };
 
 module.exports = {
